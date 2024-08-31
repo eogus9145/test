@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<!-- <link href="resources/images/favicon.ico" rel="icon"> -->
+		<link href="resources/css/test.css" rel="stylesheet">
+		<script src="resources/js/slider.js"></script>
+		<script src="resources/js/fullpageSlide.js"></script>
+		<script src="resources/js/lang.js" type="text/javascript"></script>
+		<script src="resources/js/init.js" type="text/javascript"></script>
+		<script src="resources/js/func.js" type="text/javascript"></script>
+		<script src="resources/js/index.js" type="text/javascript"></script>
+	</head>
+	<body>
+
+		<div id="nav">
+			<div id="menuWrap">
+				<div id="logo"><a href="#intro"><img id="navLogo" src="resources/images/logo/logo-white.svg" width="100%" /></a></div>
+				<div id="logo_mo"><a href="#intro"><img id="navLogo_mo" src="resources/images/logo/logo-white.svg" width="100%" /></a></div>
+				<div id="menu">
+					<ul></ul>
+				</div>
+				<div id="lang">
+					<button id="langBtn"></button>
+					<div id="hamburger"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fullpage">
+			<div class='quick'><ul></ul></div>
+
+			<!-- Intro -->
+			<div class="fullsection full1" pageNum="1" data-id="intro">
+				<div id="intro" class="section">
+					<div lang-id="intro_text01"></div>
+					<div lang-id="intro_text02"></div>
+				</div>
+			</div>
+
+			<!-- Telesoft -->
+			<div class="fullsection full2" pageNum="2" data-id="about">
+				<div id="about" class="section">
+					<div id="aboutTitle" class="sectionTitle">
+						<div lang-id="about_text01" class="sectionCategoryText"></div>
+						<div lang-id="about_text02" class="sectionTitleText"></div>
+					</div>
+					<div id="aboutContent" class="sectionContent">
+						<div id="aboutText"><div id="about_loop"></div></div>
+						<div id="aboutImg"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 회사연혁 -->
+			<div class="fullsection full3" pageNum="3" data-id="history">
+				<div id="history" class="section">
+					<div id="historyTitle" class="sectionTitle">
+						<div lang-id="history_text01" class="sectionCategoryText"></div>
+						<div lang-id="history_text02" class="sectionTitleText"></div>
+						<div lang-id="history_text03" class="sectionTitleDesc"></div>
+					</div>
+					<div id="historyContent" class="sectionContent"></div>
+				</div>
+			</div>
+
+			<!-- 서비스 -->
+			<div class="fullsection full4" pageNum="4" data-id="service">
+				<div id="service" class="section">
+					<div id="serviceTitle" class="sectionTitle">
+						<div lang-id="service_text01" class="sectionCategoryText"></div>
+						<div lang-id="service_text02" class="sectionTitleText"></div>
+						<div lang-id="service_text03" class="sectionTitleDesc"></div>
+					</div>
+					<div id="serviceContent" class="sectionContent">
+						<div id="service_menu">
+							<ul id="service_menu_ul"></ul>
+						</div>
+						<div id="service_detail">
+	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 솔루션 -->
+			<div class="fullsection full5" pageNum="5" data-id="solution">
+				<div id="solution" class="section">
+					<div id="solutionTitle" class="sectionTitle">
+						<div lang-id="solution_text01" class="sectionCategoryText"></div>
+						<div lang-id="solution_text02" class="sectionTitleText"></div>
+					</div>
+					<div id="solutionContent" class="sectionContent">
+						<div id="solutionText">
+							준비중입니다
+						</div>
+						<div id="solutionImg"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 기술개발인증 -->
+			<div class="fullsection full6" pageNum="6" data-id="certification">
+				<div id="certification" class="section">
+					<div id="certTitle" class="sectionTitle">
+						<div lang-id="certification_text01" class="sectionCategoryText"></div>
+						<div lang-id="certification_text02" class="sectionTitleText"></div>
+					</div>
+					<div id="certContent" class="sectionContent">
+						<div id="certSlideLeft">
+							<a><img src="/resources/images/icon/left.svg" width="80px" alt="Slide to left" /></a>
+						</div>
+						<div id="certPage" data-is_slide="true"></div>
+						<div id="certView">
+							<img id="certViewImg">
+						</div>
+						<div id="certSlideRight">
+							<a><img src="/resources/images/icon/right.svg" width="80px" alt="Slide to right" /></a>
+						</div>
+						<div id="controlPannel">
+							<div id="certPlayBtn"><img src="/resources/images/icon/play.svg" width="70px" height="70px" alt="Play slide"></div>
+							<div id="certPauseBtn"><img src="/resources/images/icon/pause.svg" width="70px" height="70px" alt="Pause slide"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 협력사 -->
+			<div class="fullsection full7" pageNum="7" data-id="partner">
+				<div id="partner" class="section">
+					<div id="partnerTitle" class="sectionTitle">
+						<div lang-id="partner_text01" class="sectionCategoryText"></div>
+						<div lang-id="partner_text02" class="sectionTitleText"></div>
+						<div lang-id="partner_text03" class="sectionTitleDesc"></div>
+					</div>
+					<div id="partnerContent" class="sectionContent">
+						
+					</div>
+				</div>
+			</div>
+
+			<!-- 오시는길 -->
+			<div class="fullsection full8" pageNum="8" data-id="contact">
+				<div id="contact" class="section">
+					<div id="contactContent" class="sectionContent">
+						<div id="contactText">
+							<div id="contactTitle" class="">
+								<div lang-id="contact_text01" class="sectionCategoryText"></div>
+								<div lang-id="contact_text02" class="sectionTitleText"></div>
+							</div>
+							<div id="contactInfo">
+								<div id="contactAddress">
+									<img src="resources/images/icon/location.svg" width="40px" height="auto" alt="location"/>
+									<div class="contactInfoText">
+										<div lang-id="contact_text03"></div>
+										<div lang-id="contact_text04"></div>
+									</div>
+								</div>
+								<div id="contactEmail">
+									<img src="resources/images/icon/mail.svg" width="40px" height="auto" alt="contact"/>
+									<div class="contactInfoText">
+										<div lang-id="contact_text05"></div>
+										<div lang-id="contact_text06"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="contactMap">
+							<iframe 
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.05979192542!2d126.8786938760162!3d37.482915372060305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3f6f0c63d39%3A0x479c3db11db73785!2zKOyjvCnthZTroIjshLztirjroZw!5e0!3m2!1sko!2skr!4v1719960994178!5m2!1sko!2skr" 
+								width="100%" 
+								height="450" 
+								style="border:0;" 
+								allowfullscreen="" 
+								loading="lazy" 
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
+
+					<div id="footer">
+						<div id="footerContent">
+							<div id="footerInfo">
+								<img src="resources/images/logo/logo-white.svg" width="100px" height="auto" alt="logo" id="footerLogo" />
+								<ul>
+									<li>별정통신사업 등록번호 110304</li>
+									<li>대표이사 김기범 | 개인정보보호책임자 이창현</li>
+									<li>서울시 금천구 가산디지털 1로 196 에이스테크노타워 10차 910호</li>
+								</ul>
+							</div>
+							<div id="footerLink">
+								<div class="footerLinkItem">
+									<h4 class="mb-9 text-lg font-semibold text-white">About</h4>
+									<ul>
+										<li><a href="#">회사소개서 다운로드</a></li>
+										<li><a href="#">이용약관</a></li>
+										<li><a href="#">개인정보취급방침</a></li>
+									</ul>
+								</div>
+								<div class="footerLinkItem">
+									<h4 class="mb-9 text-lg font-semibold text-white">About</h4>
+									<ul>
+										<li><a href="#">010PAY 선불충전서비스</a></li>
+										<li><a href="#">thePAY</a></li>
+										<li><a href="#">ks24</a></li>
+									</ul>
+								</div>
+								<div class="footerLinkItem">
+									<h4 class="mb-9 text-lg font-semibold text-white">About</h4>
+									<ul>
+										<li><a href="#">+82-02-544-0594</a></li>
+										<li><a href="#">+82-070-7945-0200</a></li>
+										<li><a href="#">support@telesoft.co.kr</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="footerRights">
+							©Telesoft 2024 All Rights Reserved.
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
