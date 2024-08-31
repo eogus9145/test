@@ -65,13 +65,13 @@ html,body { overflow:hidden; }
 #logo_mo, #langBtn_mo, #hamburger { display: none; justify-content: center; align-items: center; }
 
 /* 섹션 */
-#intro { padding: 0; justify-content: center; background: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%), url('/resources/images/visual_bg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
+#intro { padding: 0; justify-content: center; background: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%), url('../resources/images/visual_bg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center bottom; }
 *[lang-id="intro_text01"] { height:fit-content; color: #fff; text-align: center; font-size: clamp(30px, 4vw, 80px); letter-spacing: 0px; line-height: 1.2; }
 *[lang-id="intro_text02"] { height:fit-content; color: #fff; text-align: center; font-size: clamp(15px, 4vw, 40px); letter-spacing: 0px; line-height: 1.2; margin-top: 30px; }
 
 
 #aboutContent { height: 600px; }
-#aboutImg { width: 50%; height: 100%; background : url("/resources/images/about/about-image-01.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center; }
+#aboutImg { width: 50%; height: 100%; background : url("../resources/images/about/about-image-01.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center; }
 #aboutText { width: 50%; height: 100%;}
 .divRow { margin: 20px 0; display: flex; }
 .divRow > div { font-size: clamp(11px, 4vw, 22px); }
@@ -108,8 +108,8 @@ html,body { overflow:hidden; }
 .service_detail_desc { font-size: 16px; color: #555; }
 .service_detail_rows { margin: 20px 0; font-weight: 500; }
 .service_detail_link { display: flex; justify-content: start; align-items: center; }
-.service_detail_android { cursor: pointer; width: 160px; height: 48px; background-image: url('/resources/images/service/badge_google_play.svg'); background-position: center; background-repeat: no-repeat; background-size: 100%; margin-right: 10px; }
-.service_detail_ios { cursor: pointer; width: 144px; height: 48px; background-image: url('/resources/images/service/badge_app_store.svg'); background-position: center; background-repeat: no-repeat; background-size: 100%; }
+.service_detail_android { cursor: pointer; width: 160px; height: 48px; background-image: url('../resources/images/service/badge_google_play.svg'); background-position: center; background-repeat: no-repeat; background-size: 100%; margin-right: 10px; }
+.service_detail_ios { cursor: pointer; width: 144px; height: 48px; background-image: url('../resources/images/service/badge_app_store.svg'); background-position: center; background-repeat: no-repeat; background-size: 100%; }
 /* .service_detail_etc {  } */
 .rowsinrow { font-size: clamp(10px, 4vw, 14px); line-height: 1.5; color: #666; }
 
